@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео Слайдер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/1.mp4" type="video/mp4">
+                    
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/3.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/5.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="onevideo/6.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/7.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/8.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/9.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/10.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/11.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="slide">
+                <video class="slide-video" muted playsinline preload="auto" loop>
+                    <source src="twovideo/12.mp4" type="video/mp4">
+                </video>
+            </div>
+    
+        </div>
+        
+        <button class="nav-btn prev-btn" aria-label="Предыдущее видео">‹</button>
+        <button class="nav-btn next-btn" aria-label="Следующее видео">›</button>
+        
+        <div class="indicators">
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+            <span class="indicator" data-index="2"></span>
+            <span class="indicator" data-index="3"></span>
+            <span class="indicator" data-index="4"></span>
+            <span class="indicator" data-index="5"></span>
+            <span class="indicator" data-index="6"></span>
+            <span class="indicator" data-index="7"></span>
+            <span class="indicator" data-index="8"></span>
+            <span class="indicator" data-index="9"></span>
+            <span class="indicator" data-index="10"></span>
+            <span class="indicator" data-index="11"></span>
+            <span class="indicator" data-index="12"></span>
+        
+        </div>
+        
+        <button class="sound-btn" aria-label="Включить/выключить звук">
+            <span class="sound-off">🔇</span>
+            <span class="sound-on">🔊</span>
+        </button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
